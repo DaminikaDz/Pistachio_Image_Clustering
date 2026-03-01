@@ -93,6 +93,15 @@ notebooks/
 validation/
 - validation.ipynb
 
+## Data
+
+The project uses two sources of pistachio data:
+
+- `Pistachio_28_Features_Dataset` – tabular dataset containing geometric and color features extracted from pistachio images  
+- `Pistachio_Image_Dataset.zip` – original pistachio images used to compute deep embeddings (ResNet, ViT)
+
+The image dataset is provided as a compressed archive due to its size.
+
 ## Independent Validation: Jellyfish Species Clustering
 
 As an additional study, we independently validated another project involving clustering of image-derived features from six jellyfish species.
